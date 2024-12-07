@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contáctenos</title>
+    <link rel="stylesheet" href="css/estilos.css" />
+    <script src="js/script.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>Contáctenos</h1>
+    </header>
+    <nav>
+      <a href="index.html">Inicio</a>
+      <a href="destinos.html">Destinos</a>
+      <a href="contacenos.html">Contáctenos</a>
+    </nav>
+    <main>
+      <section id="fomrulario_estilo">
+        <form action="contactenos.html" class="formulario" id="formulario">
+          <legend>Envíanos tus Datos</legend>
+          <div>
+            <label for="nombre">Nombre:</label>
+            <input
+              type="text"
+              id="nombre"
+              name="nombre"
+              placeholder="Escribe tu nombre"
+              required
+            />
+            <label for="email">Email:</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Escribe tu email"
+              required
+            />
+            <label for="mensaje">Mensaje:</label>
+            <textarea
+              id="mensaje"
+              name="mensaje"
+              placeholder="Escribe tu mensaje aquí..."
+              required
+            ></textarea>
+            <button type="submit">Enviar</button>
+          </div>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <div class="whatsapp-icon">
+        <a href="https://wa.me/573208853974" target="_blank">
+          <img src="img/whasapp.png" alt="WhatsApp" />
+        </a>
+      </div>
+      <p>© 2024 Turismo. Todos los Derechos Reservados.</p>
+    </footer>
+  </body>
+</html>
